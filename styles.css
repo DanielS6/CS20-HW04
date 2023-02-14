@@ -1,0 +1,38 @@
+body {
+    font-size: 16pt;
+}
+
+h1 {
+    /* Center the heading text */
+    text-align: center;
+}
+
+#body-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#body-content table,
+#body-content th,
+#body-content td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#body-content table {
+    width: 100%;
+}
+
+.subtotal-row {
+    border-top: 3px solid black;
+}
+
+/* Show costs in red, discount in green */
+#hotdogs-cost, #fries-cost, #sodas-cost,
+#subtotal-items, #subtotal-discount, #tax, #total {
+    color: red;
+}
+#discount {
+    color: lightgreen;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joe's Hotdog Stand</title>
+    <link rel="stylesheet" type = "text/css" href="./styles.css">
+    <script src="./script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>Joe's Hotdog Stand</h1>
+    <div id="body-content">
+        <table id="purchase-table">
+            <thead>
+                <tr><th>Item</th><th>Quantity</th><th>Cost</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Hotdogs</td>
+                    <td id="hotdogs-count"></td>
+                    <td id="hotdogs-cost"></td></tr>
+                <tr><td>Fries</td>
+                    <td id="fries-count"></td>
+                    <td id="fries-cost"></td></tr>
+                <tr><td>Sodas</td>
+                    <td id="sodas-count"></td>
+                    <td id="sodas-cost"></td></tr>
+                <tr class="subtotal-row"><td colspan="2">Subtotal</td>
+                    <td id="subtotal-items"></td></tr>
+                <tr><td colspan="2">Discount</td>
+                    <td id="discount"></td></tr>
+                <tr class="subtotal-row"><td colspan="2">Subtotal</td>
+                    <td id="subtotal-discount"></td></tr>
+                <tr><td colspan="2">Tax (6.25%)</td>
+                    <td id="tax"></td></tr>
+                <tr><td colspan="2">Final total</td>
+                    <td id="total"></td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
